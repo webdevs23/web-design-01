@@ -1,4 +1,12 @@
 
+
+body{
+}
+
+a,ul{
+    text-decoration: none;
+    list-style: none;
+}
 :root {
     --background-color: #EBF0F7;
     --buttons-color: #2D2C96;
@@ -7,14 +15,22 @@
 }
 
 .nav-bar{
+    width: auto;
+    background-color: gray;
     display: flex;
-    gap:10%
+    gap:50px;
+   
 }
+.material-symbols-outlined{
+    margin: 15px 0 0 0 ;
+}
+
 .logo{
     display: flex;
  
 }
 .links ul{
+    width: 100%;
    display: flex;
    justify-content: space-between;
    gap: 100px;
@@ -24,6 +40,13 @@
    gap:30px
 }
 #start{
-
-
+height: 60%;
+margin: 10px;
+text-align: center;
+background-color: blue;
+border-radius: 10px;
+}
+#start a{
+    padding: 10px;
+    color: #EBF0F7;
 }
