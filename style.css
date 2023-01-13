@@ -18,45 +18,55 @@ ul {
   text-decoration: none;
 }
 
-
-
 /*Navbar*/
 
-.nav-bar{
-    width: auto;
-    background-color:var(--background-color);
-    display: flex;
-    gap:50px;
-   
+.nav-bar {
+  width: auto;
+  background-color: var(--background-color);
+  display: flex;
+  gap: 50px;
 }
-.material-symbols-outlined{
-    margin: 15px 0 0 0 ;
+.material-symbols-outlined {
+  margin: 15px 0 0 0;
 }
 
-.logo{
-    display: flex;
- 
+.logo {
+  display: flex;
+  gap: 5px;
 }
-.links ul{
-    width: 100%;
-   display: flex;
-   justify-content: space-between;
-   gap: 100px;
+
+.links ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
 }
-.log-section { 
-   display: flex;
-   gap:30px
+
+.log-section {
+  padding: 20px;
+  display: flex;
+  gap: 30px;
 }
-#start{
-height: 60%;
-margin: 10px;
-text-align: center;
-background-color: blue;
-border-radius: 10px;
+
+#start {
+  height: 60%;
+  margin: 10px;
+  text-align: center;
+  background-color: var(--buttons-color);
+  border-radius: 4px;
+  border-color: var(--buttons-color);
+  text-transform: uppercase;
+  width: 10rem;
+  font-weight: 700;
 }
-#start a{
-    padding: 10px;
-    color: #EBF0F7;
+
+#start a {
+  padding: 10px;
+  color: #ebf0f7;
+}
+
+.links {
+  padding: 20px;
 }
 
 /*Layout*/
@@ -107,8 +117,6 @@ border-radius: 10px;
   padding: 12px;
 }
 
-
-
 .layout-buttons > #button1 {
   background-color: var(--buttons-color);
   border-radius: 4px;
@@ -117,6 +125,7 @@ border-radius: 10px;
   width: 9rem;
   text-transform: uppercase;
   cursor: pointer;
+  font-weight: 700;
 }
 
 .layout-buttons > #button2 {
@@ -127,6 +136,27 @@ border-radius: 10px;
   width: 9rem;
   text-transform: uppercase;
   cursor: pointer;
+  font-weight: 800;
 }
 
+/*right part and video */
 
+
+.right-part{
+    width: 840px;
+    height: 600px;
+    
+    overflow: hidden;
+    position: relative;
+}
+
+#first-page-video {
+    width: 840px;
+    height: 600px;
+    pointer-events: none;
+    display: block;
+  =
+    overflow: hidden;
+    position: relative;
+  
+}
