@@ -5,3 +5,25 @@
     --text-color: #1A1938;
     
 }
+
+.nav-bar{
+    display: flex;
+    gap:10%
+}
+.logo{
+    display: flex;
+ 
+}
+.links ul{
+   display: flex;
+   justify-content: space-between;
+   gap: 100px;
+}
+.log-section { 
+   display: flex;
+   gap:30px
+}
+#start{
+
+
+}
