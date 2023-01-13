@@ -74,17 +74,28 @@ ul {
   color: var(--background-color);
   width: 9rem;
   text-transform: uppercase;
+<<<<<<< HEAD
   cursor: pointer;
+=======
+>>>>>>> 321d64484add02bee67d6c23e19389161bab7be0
 }
 
 .layout-buttons > #button2 {
   background-color: var(--background-color);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 321d64484add02bee67d6c23e19389161bab7be0
   border-radius: 4px;
   border-color: var(--buttons-color);
   color: var(--buttons-color);
   width: 9rem;
   text-transform: uppercase;
+<<<<<<< HEAD
   cursor: pointer;
 }
 
 
+=======
+}
+>>>>>>> 321d64484add02bee67d6c23e19389161bab7be0
