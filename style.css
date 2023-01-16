@@ -26,26 +26,33 @@ ul {
   display: flex;
   gap: 50px;
 }
-.material-symbols-outlined {
-  margin: 15px 0 0 0;
-}
 
 .logo {
   display: flex;
-  gap: 5px;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 12px;
+}
+.material-symbols-outlined {
+  /* margin: 15px 0 0 0; */
+  position: relative;
+  padding-top: 28px;
+  padding-left: 30px;
 }
 
 .links ul {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  gap: 100px;
+  /* gap: 100px; */
 }
 
 .log-section {
   padding: 20px;
   display: flex;
   gap: 30px;
+  justify-content: end;
 }
 
 #start {
@@ -58,6 +65,7 @@ ul {
   text-transform: uppercase;
   width: 10rem;
   font-weight: 700;
+  
 }
 
 #start a {
@@ -141,21 +149,19 @@ ul {
 
 /*right part and video */
 
+.right-part {
+  width: 840px;
+  height: 600px;
 
-.right-part{
-    width: 840px;
-    height: 600px;
-    
-    overflow: hidden;
-    position: relative;
+  overflow: hidden;
+  position: relative;
 }
 
 #first-page-video {
-    width: 840px;
-    height: 600px;
-    pointer-events: none;
-    display: block;
-    overflow: hidden;
-    position: relative;
-  
+  width: 840px;
+  height: 600px;
+  pointer-events: none;
+  display: block;
+  overflow: hidden;
+  position: relative;
 }
