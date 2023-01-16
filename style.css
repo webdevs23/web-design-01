@@ -65,7 +65,7 @@ ul {
   text-transform: uppercase;
   width: 10rem;
   font-weight: 700;
-  
+  color: var(--background-color);
 }
 
 #start a {
@@ -165,3 +165,31 @@ ul {
   overflow: hidden;
   position: relative;
 }
+
+/*Parteners Section*/
+
+.trusted-by {
+  margin: auto;
+  padding: 2rem;
+  background-color: var(--background-color);
+  height: 70%;
+}
+
+.parteners-logo {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+
+.svg-logo {
+  width: 110px;
+  display: flex;
+}
+
+.info-parteners {
+  text-align: center;
+  padding-top: 20px;
+  opacity: 0.6;
+}
+
