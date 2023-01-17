@@ -4,6 +4,8 @@
   --background-color: #ebf0f7;
   --buttons-color: #2d2c96;
   --text-color: #1a1938;
+  --background-color-second: #7474fb;
+  --tabs-color: #ffb58b;
   font-family: "Poppins", sans-serif;
 }
 
@@ -181,7 +183,6 @@ ul {
   gap: 3rem;
 }
 
-
 .svg-logo {
   width: 110px;
   display: flex;
@@ -191,5 +192,63 @@ ul {
   text-align: center;
   padding-top: 20px;
   opacity: 0.6;
+  height: auto;
 }
 
+/*Tab presentation*/
+
+.video-content {
+  width: 1024px;
+  height: 650px;
+}
+
+.tab-buttons {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  gap: 3rem;
+  padding-top: 3rem ;
+  padding-left: 2.5rem;
+  margin-left: 20em;
+}
+
+.tab-presentation {
+  background-color: var(--background-color);
+  padding-top: 12px;
+}
+
+#tab-text {
+  height: auto;
+  padding-top: 6rem;
+  padding-left: 23em;
+  
+}
+.tab-buttons > .tab-links {
+  font-size: 13px;
+  background-color: var(--background-color);
+  border-color: var(--background-color);
+  border-radius: 20px;
+  width: 130px;
+  height: 40px;
+  opacity: 1;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  padding: 3px;
+  transition: 0.3s;
+}
+
+.tab-buttons button.active {
+  background-color:  rgba(209, 203, 203, 0.877);
+}
+
+.tab-buttons button:hover {
+  background-color: rgba(209, 203, 203, 0.877);
+}
+
+
+.tab-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
